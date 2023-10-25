@@ -18,3 +18,5 @@ elif uName[:1] in {'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 
         print ('Grifindor')
     else :
         print ('Slythering')
+else :
+    print('Algún dato de los introducidos no es válido, vuelva a introducirlos. ')
