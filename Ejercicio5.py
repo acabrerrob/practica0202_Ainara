@@ -5,3 +5,8 @@
 name = input ('Introduzca su nombre: ')
 gender = input ('Introduzca su sexo: ')
 
+uName = name.upper()
+
+
+if uName[:1] == 'A' or  uName[:1] == 'B' or uName[:1] == 'C':
+    print (uName[:1])
